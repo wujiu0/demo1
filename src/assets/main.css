@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --emerald-500: #00c768;
+  --emerald-400: #1fe37a;
+  --emerald-50: #e8fff3;
+  --teal-900: #0b2c2e;
+  --teal-800: #0f3c44;
+  --teal-700: #115252;
+  --gray-900: #0f2b2c;
+  --gray-700: #1f3f41;
+  --gray-500: #4f676d;
+  --gray-200: #e6efef;
+  --white: #ffffff;
+  --radius-lg: 22px;
+  --shadow-soft: 0 14px 40px rgba(16, 87, 78, 0.12);
+  --shadow-strong: 0 28px 60px rgba(4, 58, 48, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Manrope', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(180deg, #ffffff 0%, #f2fffa 80%, #e8fff3 100%);
+  color: var(--teal-900);
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+}
