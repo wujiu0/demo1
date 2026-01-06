@@ -1,11 +1,11 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <div class="page">
     <header class="top-bar">
       <div class="logo">
-        <span class="mark"></span>
-        <span class="word">stori</span>
+        <img style="height: 48px; position: absolute; left: 10px" src="./assets/log.svg" alt="">
       </div>
       <nav class="nav">
         <a href="#">Productos <img src="./assets/down.svg" alt="" /></a>
@@ -94,6 +94,7 @@
   font-weight: 800;
   font-size: 22px;
   color: var(--teal-800);
+  margin-right: 20px;
 }
 
 .mark {
@@ -457,8 +458,8 @@
   width: 26px;
   height: 18px;
   background: radial-gradient(circle at 0 50%, rgba(255, 255, 255, 0.85) 0 40%, transparent 42% 100%),
-    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.65) 0 40%, transparent 42% 100%),
-    radial-gradient(circle at 100% 50%, rgba(255, 255, 255, 0.5) 0 40%, transparent 42% 100%);
+  radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.65) 0 40%, transparent 42% 100%),
+  radial-gradient(circle at 100% 50%, rgba(255, 255, 255, 0.5) 0 40%, transparent 42% 100%);
   border-radius: 6px;
   opacity: 0.9;
 }
